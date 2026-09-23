@@ -34,7 +34,7 @@ public class Principal {
         Filme outroFilme = new Filme();
         outroFilme.setNome("Avatar");
         outroFilme.setAnoDeLancamento(2023);
-        outroFilme.setDuracaoEmMinutos(200);
+        outroFilme.setDuracaoEmMinutos(220);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
