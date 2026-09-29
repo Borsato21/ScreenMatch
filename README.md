@@ -20,7 +20,7 @@ Um projeto de estudos que usa o universo do cinema e das séries para explorar c
 
 O **ScreenMatch** é uma aplicação Java executada no console que representa filmes, séries e episódios. A proposta é praticar a organização de um sistema orientado a objetos, compartilhando comportamentos entre classes e definindo regras de avaliação, duração e recomendação.
 
-A classe `Principal` reúne uma demonstração com dados definidos no próprio código: cria títulos, registra notas, calcula o tempo de uma maratona e exibe recomendações.
+A classe `br.com.alura.screenmatch.principal.Principal` reúne uma demonstração com dados definidos no próprio código: cria títulos, registra notas, calcula o tempo de uma maratona e exibe recomendações.
 
 > **Escopo atual:** demonstração em memória, sem menu interativo, interface gráfica, banco de dados ou integração com APIs.
 
@@ -57,7 +57,7 @@ O projeto utiliza a biblioteca padrão do Java, sem dependências externas e sem
 
 | Local em `src/` | Responsabilidade |
 | --- | --- |
-| `Principal.java` | Ponto de entrada e demonstração dos recursos. |
+| `br.com.alura.screenmatch.principal.Principal.java` | Ponto de entrada e demonstração dos recursos. |
 | `br/com/alura/screenmatch/modelos/Titulo.java` | Dados comuns, ficha técnica e avaliações. |
 | `br/com/alura/screenmatch/modelos/Filme.java` | Modelo de filme, diretor e classificação. |
 | `br/com/alura/screenmatch/modelos/Serie.java` | Modelo de série e cálculo da duração total. |
@@ -87,7 +87,7 @@ cd ScreenMatch
 
 1. Abra a pasta `ScreenMatch` na IDE.
 2. Em **File → Project Structure → Project**, configure o SDK do projeto.
-3. Abra `src/Principal.java`.
+3. Abra `src/br.com.alura.screenmatch.principal.Principal.java`.
 4. Execute o método `main` pelo botão de execução ao lado da classe.
 5. Acompanhe os resultados no console.
 
@@ -96,15 +96,15 @@ cd ScreenMatch
 Na pasta raiz do projeto, compile e execute:
 
 ```bash
-javac -encoding UTF-8 -d out -sourcepath src src/Principal.java
-java -cp out Principal
+javac -encoding UTF-8 -d out -sourcepath src src/br.com.alura.screenmatch.principal.Principal.java
+java -cp out br.com.alura.screenmatch.principal.Principal
 ```
 
 O primeiro comando compila a classe principal e as classes necessárias para a pasta `out`. O segundo inicia a demonstração.
 
 ## 🔎 O que a demonstração calcula?
 
-Com os valores definidos em `Principal.java`:
+Com os valores definidos em `br.com.alura.screenmatch.principal.Principal.java`:
 
 | Cálculo | Resultado |
 | --- | --- |
