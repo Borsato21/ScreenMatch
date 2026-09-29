@@ -33,7 +33,7 @@ public class Titulo {
         this.nome = nome;
     }
 
-    public int getAnoDeLancamento() {
+    public int  getAnoDeLancamento() {
         return this.anoDeLancamento;
     }
 
